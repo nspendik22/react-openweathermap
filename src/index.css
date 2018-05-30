@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url(https://s1.twnmm.com/images/en_ca/backgrounds/unified/clear_day.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+.container{
+  background: linear-gradient(to top,rgba(0,0,0,0),rgba(0,0,0,0.5));
+  color:white;
+  font-family: 'Roboto',sans-serif;
+}
+h1{
+  font-size: 24px;
+  margin: 0 auto;
+  font-weight:normal;
+}
+.temp{
+  height: 96px;
+  float: left;
+  font-size: 4.2em;
+  color: #ffea51;
+}
+.unitwrap{
+  height: 30px;
+    display: block;
+    margin-top: 10px;
+    color: #ffea51;
+    font-size: 1.4em;
+}
+.info_card{
+  display:flex;
+}
+.feels-like{
+  margin: 0 5px;
+  display: table;
+}
+.label{
+  font-size: 0.6em;
+  width: 28px;
+  display: table-cell;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 10px;
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  vertical-align: middle;
+}
+.value{
+  font-size: 1.6em;
+    color: rgba(255,255,255,0.8);
+    display: table-cell;
+}
+.weather-icon img{
+  width: 100px;
+  height: 100px;
+}
+.status{
+  display: block;
+    text-align: left;
+    margin-top: -1em;
+    font-size: 1em;
+    float: left;
+    clear: both;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.secondary{
+  flex: 1;
+  width: 500px;
+  margin-top: 20px;
+}
+.details{
+  display: flex;
+  flex-flow: row wrap;
+}
+.detailed-metrics{
+  margin-bottom: 0.8em;
+  color: #FFFFFF;
+  width: 25%;
+}
+.detailed-metrics .label{
+  font-size: 0.8em;
+  display: block;
+  color: rgba(255,255,255,0.9);
+}
+.detailed-metrics .value{
+  font-size: 1.2em;
+  margin-right: 0.1em;
+}
+.detailed-metrics .vector, .detailed-metrics .metric{
+font-size: 0.6em;
+display: table-row;
+color: rgba(255,255,255,0.9);
+opacity: 1;
+}
